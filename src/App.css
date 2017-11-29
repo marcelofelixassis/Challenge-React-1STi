@@ -1,0 +1,49 @@
+#first__container {
+  padding-top: 80px;
+}
+
+.Title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.container__input_search{
+  padding-top: 30px;
+}
+
+.custom-search-input{
+  width: 420px;
+}
+
+.container__hr {
+  padding-top: 30px;
+}
+
+hr {
+  width: 37%;
+}
+
+.container__capitals {
+  margin: 0 auto;
+  width: 390px;
+}
+
+.capitals__title {
+  color: white;
+  font-size: 30px;
+}
+
+.container__table {
+  float: left;
+  width: 50%;
+}
+
+td, th {
+  padding: 6px;
+}
+
+
+
