@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import Table_line from './table_line/table_line';
 
+import './table.css';
+
+
 class Table extends Component {
   render() {
     return (
-        <div className="container__table">
-            <table>
+        <div className="container__table" id={this.props.mobile_condition}>
+            <table> 
                 <tbody>
-                    <tr>
+                    <tr className={this.props.mobile_condition}>
                         <td>Min</td>
                         <td>Máx</td>
                     </tr>

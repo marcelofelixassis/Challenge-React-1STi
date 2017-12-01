@@ -24,9 +24,9 @@ class Table_line extends Component {
     render() {   
     return (
         <tr>
-            <td>{this.state.min}º</td>
-            <td>{this.state.max}º</td>
-            <td>{this.props.Capital_infos.capital}</td>
+            <th>{this.state.min}º</th>
+            <th>{this.state.max}º</th>
+            <th>{this.props.Capital_infos.capital}</th>
         </tr>
     );
   }

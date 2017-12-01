@@ -1,0 +1,10 @@
+@media (max-width: 515px) {
+    .min_max_hidden {
+        visibility: hidden;
+    }
+
+    #min_max_hidden {
+        margin-top: -30px;
+    }
+    
+}
