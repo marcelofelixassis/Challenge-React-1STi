@@ -1,0 +1,11 @@
+.day {
+    font-size: 15px;
+    float: left;
+    font-weight: bold;
+    text-align: center; 
+    padding-left: 7px;
+}
+
+.day__minmax {
+    color: orange;
+}

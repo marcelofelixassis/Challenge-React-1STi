@@ -56,3 +56,11 @@
         width: 100%;
     }
 }
+
+@media (max-width: 320px) {
+    .Title {
+        font-size: 40px;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
