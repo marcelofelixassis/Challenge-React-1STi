@@ -12,6 +12,21 @@ const table_left_obj = {1:{capital: "Alabama",initial: "al"},2:{capital: "Alasca
 const table_right_obj = {1:{capital: "Nebrasca",initial: "ne"},2:{capital: "Nevada",initial: "nv"},3:{capital: "Nova iorque",initial: "ny"},4:{capital: "Texas",initial: "tx"},5:{capital: "Washington",initial: "wa"}};
 
 class App extends Component {
+
+  constructor(){
+    super();
+    this.state = {
+      collapse: 'collapse'
+    }
+  }
+
+  change_collapse = () => {
+    var m = this
+    m.setState({
+      collapse: 'collapse.show'
+    })
+  }
+
   render() {
     return (
       <div>
@@ -19,11 +34,11 @@ class App extends Component {
           <Title />
 
           <div>
-            <Frame />
+            <Frame collapsed={this.state.collapse}/>
           </div>
 
           <div className="container__input_search">
-            <Input_search />
+            <Input_search action={this.change_collapse}/>
           </div>
           
         </div>

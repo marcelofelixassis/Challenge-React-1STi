@@ -13,7 +13,7 @@ class Input_search extends Component {
             <div className="input-group">
                 <input type="text" className="form-control input" placeholder="enter here the name of the city" />
                 <span className="input-group-btn">
-                    <button className="btn" type="button">
+                    <button className="btn" type="button" onClick={this.props.action}>
                         <i className="glyphicon glyphicon-search"></i>
                     </button>
                 </span>
